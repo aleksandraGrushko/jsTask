@@ -1,0 +1,287 @@
+html {height: 100%;}
+body{
+	font:13px Arial, Helvetica, sans-serif;
+	background:#e2ef33;
+	height: 100%;
+	color:#000;
+	margin:0;
+}
+img{border:none;}
+a{
+	text-decoration:underline;
+	color:#00f;
+}
+a:hover{text-decoration:none;}
+input, textarea, select{
+	font:100% Arial,sans-serif;
+	vertical-align:middle;
+}
+form,fieldset {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/* main blocks styles */
+#main{
+	border: 1px solid #999;
+	border-width: 0 1px;
+	background: #fff;
+	min-height: 100%;
+	width:1000px;
+	margin:0 auto;
+}
+* html #main {
+	height: 100%;
+}
+.holder{
+	border:1px solid #999;
+	border-width:1px 0;
+	overflow:hidden;
+	margin:0 0 -1px;
+	padding:20px 0;
+	width:100%;
+}
+
+/* task information block styles */
+.task-info {
+	border-bottom: 1px solid #999;
+	position: relative;
+	background:#bfb;
+	padding: 20px;
+	margin: 0 0 -1px;
+}
+.task-info h1 {
+	font-size: 26px;
+	margin: 0 0 10px;
+}
+.task-info ul {
+	list-style: none;
+	padding: 0 0 0 15px;
+	margin: 0 0 10px;
+}
+.task-info p {
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+/* task 1 styles */
+.task1 #block1{
+	width:100px;
+	background:green;
+	float:left;
+	margin-right:5px;
+}
+.task1 #block2{
+	width:100px;
+	background:red;
+	float:left;
+}
+.task1 #list-holder{
+	width:600px;
+	margin:0 auto;
+}
+.task1 #list-holder .box{
+	width:148px;
+	float:left;
+	background:red;
+	margin-right:2px;
+}
+.task1 .element{
+	float:left;
+	width:100px;
+	padding:10px 5px;
+	border:5px solid #000;
+	margin-right:5px;
+}
+.task1 .container{
+	float:left;
+	width:150px;
+	padding:15px 5px;
+	background:red;
+	margin-right:5px;
+}
+.task1 .my-box{
+	float:left;
+	width:200px;
+	margin-right:5px;
+	background:green;
+}
+
+/* task 2 styles */
+.task2 #list-holder{
+	width:600px;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+}
+.task2 #list-holder li{
+	width:198px;
+	float:left;
+	height:200px;
+	margin-right:2px;
+	background:red;
+}
+.task2 #list-holder img{ float:left;}
+
+/* task 3 styles */
+.task3 #block1{
+	width:100px;
+	background:green;
+	float:left;
+	margin-right:5px;
+}
+.task3 #block2{
+	width:100px;
+	background:red;
+	float:left;
+}
+.task3 #holder{
+	width:700px;
+	margin:0 auto;
+}
+.task3 #holder div{
+	width:145px;
+	float:left;
+	padding: 5px;
+	margin-right:10px;
+}
+.task3 #holder div.box{
+	width: 100%;
+	margin:0;
+	float:none;
+}
+.task3 #holder div.element{ border:1px dashed red;}
+
+/* task 4 styles */
+.task4 ul.list{
+	float:left;
+	width:200px;
+	margin:0 100px 0 0;
+	padding:0;
+	list-style:none;
+	border:1px solid #000;
+}
+.task4 ul.list li{
+	border:1px solid #000;
+	border-width:1px 0;
+	padding:5px;
+}
+.task4 ul.list li.first{ background:red;}
+.task4 ul.list li.last{ background:green;}
+
+/* task 5 styles */
+.task5 ul.list{
+	float:left;
+	width:200px;
+	margin:0 100px 0 0;
+	padding:0;
+	list-style:none;
+	border:1px solid #000;
+}
+.task5 ul.list li{
+	border:1px solid #000;
+	border-width:1px 0;
+	padding:5px;
+}
+.task5 ul.list li.alt{ background:#ccc;}
+.task5 ul.list li span{ color:red;}
+
+/* task 6 styles */
+.task6 ul.list{
+	float:left;
+	width:200px;
+	margin:0 100px 0 0;
+	padding:0;
+	list-style:none;
+	border:1px solid #000;
+}
+.task6 ul.list li{
+	border:1px solid #000;
+	border-width:1px 0;
+	padding:5px;
+}
+.task6 ul.list li.alt{ background:#ccc;}
+.task6 ul.list li span{ color:red;}
+
+.task6 ul.list ul{
+	margin:0 0 0 30px;
+	padding:5px;
+	list-style:none;
+	width:100px;
+	border:1px solid green;
+}
+.task6 ul.list ul li{
+	border:1px solid green;
+}
+
+/* task 7 styles */
+.task7 div.active{ background:green;}
+.task7 .holder div.box{
+	display:none;
+	border:1px solid red;
+}
+.task7 .active div.box{ display:block;}
+
+/* task 8 styles */
+.task8 #visual{
+	text-align: center;
+	margin:50px auto;
+	overflow:hidden;
+	background:#ff0;
+}
+.task8 #visual img{
+	vertical-align: top;
+}
+
+/* task 9 styles */
+.task9 #gallery{
+	width:83px;
+	height:60px;
+	margin:200px auto 10px;
+	padding:10px;
+	border:1px solid red;
+	list-style:none;
+	position:relative;
+}
+.task9 #gallery li{
+	width:83px;
+	height:60px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:10px;
+	z-index:1;
+}
+.task9 #gallery li.active{ z-index:2;}
+.task9 #gallery img{ display:block;}
+.task9 .nav{
+	font-size:12px;
+	width:200px;
+	margin:0 auto;
+	padding:10px;
+	border:1px solid green;
+	overflow:hidden;
+}
+.task9 #btn-stop{ float:right;}
+.task9 #btn{
+	display:block;
+	text-align:center;
+	background:yellow;
+}
+
+/* task 10 styles */
+.task10 #content {
+	padding:0 20px 0 120px;
+	position:relative;
+	overflow: hidden;
+}
+.task10 #slider{
+	position:absolute;
+	width:100px;
+	top:0;
+	left:-110px;
+	margin:1px 0 0;
+	height:200px;
+	background:#ff0;
+}

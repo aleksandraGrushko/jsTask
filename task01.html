@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Task2</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
+	<script type="text/javascript" src="js/task1.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="main" class="task1">
+		<div class="task-info">
+			<h1>Задание №1</h1>
+			<p>Необходимо потянуть стоящие рядом блоки по максимальной высоте.</p>
+			<ul>
+				<li>1. Два блока &lt;div id="block1"&gt; и &lt;div id="block2"&gt;</li>
+				<li>2. дочерние дивы внутри &lt;div id="list-holder"&gt;</li>
+				<li>3. Три дива с классами "element", "container", "my-box"(обратите внимание что у них есть падинги)</li>
+			</ul>
+			<p>Примерно это должно выглядеть так:</p>
+			<p>Нужно реализовать несколько функций - по одной для решения конкретного пункта задания. Находим блоки которые нужно сравнить, перебираем их, находим максимальную высоту.
+				После этого снова перебираем блоки и ставим им высоту равную значению максимальной.</p>
+		</div>
+	
+		<div class="holder">
+			<div id="block1">
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text</p>
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text</p>
+			</div>
+			<div id="block2">
+				<p>some text text text some text some text text text some text some text</p>
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text</p>
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text</p>
+			</div>
+		</div>
+		<div class="holder">
+			<div id="list-holder">
+				<div class="box">
+					<p>some text text text some text some text text text some text some text</p>
+				</div>
+				<div class="box">
+					<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text</p>
+				</div>
+				<div class="box">
+					<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text</p>
+				</div>
+				<div class="box">
+					<p>some text text text some text some text text text some text some text</p>
+					<p>some text text text some text some text text text some text some text</p>
+				</div>
+			</div>
+		</div>
+		<div class="holder">
+			<div class="element">
+				<p>some text text text some text some text text text some text some text</p>
+			</div>
+			<div class="container">
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text some text text text</p>
+			</div>
+			<div class="my-box">
+				<p>some text text text some text some text text text some text some text text text some text some text text text some text some text text text some text</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
